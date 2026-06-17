@@ -3,79 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shihab's Portfolio</title>
+    <title>Shihab's Portfolio Page</title>
 
-    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
+<body class="bg-dark text-light">
 
-    <h1>Shahriar Alam Shihab</h1>
-    <h3>Welcome To My Page</h3>
+    <div class="container py-5">
 
-    <img src="img.jpg" alt="Shihab" height="380" width="300">
+        <div class="text-center">
+            <h1 class="display-4 fw-bold text-info">Shahriar Alam Shihab</h1>
+            <h4 class="text-secondary">Welcome To My Page</h4>
 
-    
-       <p> Hello! My name is Shahriar Alam Shihab. </p>
-        <p>I am a student at the University of Rajshahi, </p>
-       <p> studying in the Computer Science and Engineering (CSE) department.</p>
-   
+            <img src="img.jpg"
+                 alt="Shihab"
+                 class="img-fluid rounded shadow-lg border border-info border-3 my-4"
+                 style="max-width:300px;">
+        </div>
 
-    <hr>
+        <div class="card bg-secondary-subtle text-dark mb-4">
+            <div class="card-body">
+                <h2 class="card-title text-primary">About Me</h2>
+                <p>
+                    Hello! My name is Shahriar Alam Shihab.
+                    I am a student at the University of Rajshahi,
+                    studying in the Computer Science and Engineering (CSE) department.
+                </p>
+            </div>
+        </div>
 
-    <h2>Education</h2>
+        <div class="card bg-secondary-subtle text-dark mb-4">
+            <div class="card-body">
+                <h2 class="card-title text-primary">Education</h2>
 
-    <ul>
-        <li>
-            <b>University of Rajshahi</b>
+                <ul>
+                    <li>
+                        <strong>University of Rajshahi</strong>
+                        <ul>
+                            <li>B.Sc. in Computer Science and Engineering (2024 - Present)</li>
+                        </ul>
+                    </li>
 
-            <ul>
-                <li>
-                    B.Sc. in Computer Science and Engineering
-                    <i>(2024 - Present)</i>
-                </li>
+                    <li>
+                        <strong>BAF Shaheen College</strong>
+                        <ul>
+                            <li>H.S.C in Science (2022)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-               
-            </ul>
-        </li>
+        <div class="card bg-secondary-subtle text-dark mb-4">
+            <div class="card-body">
+                <h2 class="card-title text-primary">Skills</h2>
 
-        <li>
-            <b>BAF Shaheen College</b>
+                <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-primary p-2">HTML</span>
+                    <span class="badge bg-success p-2">C++</span>
+                    <span class="badge bg-warning text-dark p-2">Java</span>
+                </div>
+            </div>
+        </div>
 
-            <ul>
-                <li>
-                    H.S.C in Science
-                    <i>(2022)</i>
-                </li>
+        <div class="card bg-secondary-subtle text-dark">
+            <div class="card-body">
+                <h2 class="card-title text-primary">Contact</h2>
 
-                
-            </ul>
-     
-            </ul>
-        </li>
-    </ul>
+                <p>
+                    <strong>Email:</strong>
+                    s2410276102@ru.ac.bd
+                </p>
+            </div>
+        </div>
 
-    <hr>
-
-    <h2>Skills</h2>
-
-    <ul>
-        <li>HTML</li>
-        <li>C++, Java </li>
-        
-    </ul>
-
-    <hr>
-
-    <h2>Contact</h2>
-
-    <ul>
-        <li>
-            <b>Email:</b>
-            s2410276102@ru.ac.bd 
-        </li>
-
-        </ul>
+    </div>
 
 </body>
 </html>
